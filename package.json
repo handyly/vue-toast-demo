@@ -1,13 +1,13 @@
 {
   "name": "my-plugin",
-  "version": "1.0.0", // 每发布一次都要修改版本号
+  "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "yanleying <leying.yan@hand-china.com>",
-  "private": false, // 一定要设置成false
-  "main": "dist/vue-toast-demo.js", // 默认 import 引入插件时，读取的文件
+  "private": false,
+  "main": "dist/vue-toast-demo.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/handyly/vue-toast-demo" // 这里为我自己插件存放github的地址
+    "url": "https://github.com/handyly/vue-toast-demo"
   },
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
