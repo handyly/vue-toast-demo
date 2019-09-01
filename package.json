@@ -1,13 +1,13 @@
 {
   "name": "vue-toast-yly",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vue.js project",
   "author": "yanleying <leying.yan@hand-china.com>",
   "private": false,
-  "main": "dist/vue-toast-demo.js",
+  "main": "dist/vue-toast-yly.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/handyly/vue-toast-demo"
+    "url": "https://github.com/handyly/vue-toast-yly"
   },
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
