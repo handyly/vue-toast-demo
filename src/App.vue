@@ -20,6 +20,10 @@
 </template>
 
 <script>
+// import Vue from 'vue'
+// import Toast from '../dist/vue-toast-yly.js'
+// Vue.use(Toast)
+
 export default {
   name: 'app',
   data () {
@@ -29,8 +33,8 @@ export default {
   },
   methods: {
     showToast () {
-      this.$toast('This is Your toast plugin', 2000)
-      // this.$myPlugin.toast('This is Your toast plugin', 2000)
+      this.$toast('This is myToast plugin', 2000)
+      // this.$myPlugin.toast('This is myPluginToast plugin', 2000)
     }
   }
 }

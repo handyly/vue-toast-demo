@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import Toast from './plugin/toast.js'
+import Toast from './plugin/myToast.js'
 Vue.use(Toast)
 
 new Vue({
