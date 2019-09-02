@@ -29,7 +29,8 @@ export default {
   },
   methods: {
     showToast () {
-      this.$toast('Welcome to Your toast plugin')
+      this.$toast('This is Your toast plugin', 2000)
+      // this.$myPlugin.toast('This is Your toast plugin', 2000)
     }
   }
 }

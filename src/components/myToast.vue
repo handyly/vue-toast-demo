@@ -22,10 +22,10 @@ export default {
 .toast {
   position: fixed;
   top: 40%;
-  left: 50%;
-  margin-left: -15vw;
+  left: 25%;
+  // margin-left: -15vw;
   padding: 2vw;
-  width: 30vw;
+  width: 50vw;
   font-size: 4vw;
   color: #fff;
   text-align: center;

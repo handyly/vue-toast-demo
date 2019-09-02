@@ -8,7 +8,7 @@ module.exports = {
   //   publicPath: '/dist/',
   //   filename: 'build.js'
   // },
-  entry: './src/plugin/toast.js',
+  entry: './src/plugin/toast1.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
