@@ -20,9 +20,11 @@
 </template>
 
 <script>
-// import Vue from 'vue'
-// import Toast from '../dist/vue-toast-yly.js'
-// Vue.use(Toast)
+import Vue from 'vue'
+import Toast from '../dist/vue-toast-yly.js'
+// const Toast = require('../dist/vue-toast-yly')
+console.log(Toast)
+Vue.use(Toast)
 
 export default {
   name: 'app',
@@ -33,8 +35,11 @@ export default {
   },
   methods: {
     showToast () {
-      this.$toast('This is myToast plugin', 2000)
-      // this.$myPlugin.toast('This is myPluginToast plugin', 2000)
+      // this.$toast('This is myToast plugin', 2000)
+      this.$myPlugin.toast('This is myPluginToast plugin', 2000, this.onHide)
+    },
+    onHide (data) {
+      console.log('onHide===' + data)
     }
   }
 }

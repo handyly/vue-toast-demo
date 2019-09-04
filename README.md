@@ -1,4 +1,4 @@
-# my-toast
+# vue-toast-yly
 
 > A Vue.js project
 
