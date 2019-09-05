@@ -10,17 +10,12 @@ const plugin = {
     instance.$mount(document.createElement('div'))
     document.body.appendChild(instance.$el)
 
-    const toast = (msg, duration = 2000, onHide = () => {}) => {
+    const toast = (msg, duration = 2000) => {
       instance.message = msg
       instance.show = true
       setTimeout(() => {
         instance.show = false
       }, duration)
-      instance.$watch('show', (val) => {
-        if (!val) {
-          onHide(instance.message)
-        }
-      })
     }
     // all myPlugin's plugins are included in this.$myPlugin
     if (!Vue.$myPlugin) {

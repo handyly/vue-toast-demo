@@ -22,3 +22,4 @@ Toast.install = function (Vue) {
   }
 }
 export default Toast
+export const install = Toast.install
